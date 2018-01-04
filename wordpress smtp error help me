@@ -1,0 +1,25 @@
+Versions:
+WordPress: 4.9.1
+WordPress MS: No
+PHP: 5.6.31
+WP Mail SMTP: 1.2.2
+
+Params:
+Mailer: smtp
+Constants: No
+ErrorInfo: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
+Host: smtp.cigkoftesiparisi.com
+Port: 587
+SMTPSecure: string(0) ""
+SMTPAutoTLS: bool(false)
+SMTPAuth: bool(true)
+
+Server:
+OpenSSL: Yes
+Apache.mod_security: No
+SMTP Debug:
+2018-01-04 07:38:25	Connection: opening to smtp.cigkoftesiparisi.com:587, timeout=300, options=array (
+)
+2018-01-04 07:39:28	Connection: Failed to connect to server. Error number 2. "Error notice: stream_socket_client(): unable to connect to smtp.cigkoftesiparisi.com:587 (Connection timed out)
+2018-01-04 07:39:28	SMTP ERROR: Failed to connect to server: Connection timed out (110)
+2018-01-04 07:39:28	SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting
